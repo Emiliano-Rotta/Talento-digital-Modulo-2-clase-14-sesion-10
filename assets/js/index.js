@@ -22,14 +22,32 @@
 // });
 
 //Ejercicio 2
-$(document).ready(function () {
-    var ocultar = () => {
-        $("#parrafo").hide();
-    }
-    var mostrar = () => {
-        $("#parrafo").show();
-    }
-    $("#btn-ocultar").click(ocultar)
-    $("#btn-mostrar").click(mostrar)
-})
+// $(document).ready(function () {
+//     var ocultar = () => {
+//         $("#parrafo").hide();
+//     }
+//     var mostrar = () => {
+//         $("#parrafo").show();
+//     }
+//     $("#btn-ocultar").click(ocultar)
+//     $("#btn-mostrar").click(mostrar)
+// })
+
+//Ejercicio 3
+// $(document).ready(function(){
+//     $("#cambioColor").click(function(){
+//         $(".toggle").toggleClass("rojo verde")
+//     })
+// });
+
+//ejercicio 4
+// $(document).ready(function(){
+//     $("#agregarItem").click(function(){
+//         var nuevoItem = $("#nuevoElemento").val();
+//         if(nuevoItem){
+//             $("#miLista").append("<li>" + nuevoItem + "</li>")
+//             $("#nuevoElemento").val("");
+//         }
+//     })
+// });
 
