@@ -1,0 +1,13 @@
+.oscuro{
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+.claro{
+    color: rgb(41, 41, 41);
+    background-color: white;
+}
+
+#solLuna{
+    border-radius: 50%;
+    height:50px ;
+}
